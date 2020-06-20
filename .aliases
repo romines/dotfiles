@@ -1,0 +1,8 @@
+alias gb='git --no-pager branch'
+alias gpom='git pull origin master'
+alias gpn='git push --set-upstream origin $(git_current_branch)'
+# alias glg='git log  --oneline | head -n 22'
+alias glg="git log --oneline --decorate --date=relative --color=always --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'\ | head -n 22"
+alias dc="docker-compose"
+alias src="source ~/.zshrc"
+
